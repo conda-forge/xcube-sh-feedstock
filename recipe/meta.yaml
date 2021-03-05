@@ -1,5 +1,5 @@
 {% set name = "xcube-sh" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-sh/archive/v{{ version }}.tar.gz
-  sha256: 6f63dfd8848011f38f19039aea35e6e3c8f87b030a7cb470005798b8349e718a
+  sha256: 2c55c7c5f4c4e65bb0dfbcebd37bbd1deffb1ff2aa6a26e486243963a6e39b43
 
 build:
   number: 0
