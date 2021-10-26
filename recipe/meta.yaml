@@ -1,5 +1,5 @@
 {% set name = "xcube-sh" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-sh/archive/v{{ version }}.tar.gz
-  sha256: 7775da6b388226e4f890d064e97ead5bc5ba47004e7dae9f688fd281ccafc2cb
+  sha256: e5564b1fd59bd5c6b76bdee3591ee1d82262e2f100272c56e5f61181a82aec4b
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - xcube >=0.8.0
+    - xcube >=0.9.0
     - oauthlib >=3.0
     - requests-oauthlib >=1.3
 
