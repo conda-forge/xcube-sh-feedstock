@@ -5,7 +5,7 @@ Home: https://github.com/dcs4cop/xcube-sh
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube-sh-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube-sh-feedstock/blob/main/LICENSE.txt)
 
 Summary: xcube plugin for the Sentinel Hub Cloud API
 
@@ -21,8 +21,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10889&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xcube-sh-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10889&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xcube-sh-feedstock?branchName=main">
       </a>
     </td>
   </tr>
