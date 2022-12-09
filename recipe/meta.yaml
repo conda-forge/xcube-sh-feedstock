@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - xcube >=0.9.0
+    - xcube >=0.10.0
     - oauthlib >=3.0
     - requests-oauthlib >=1.3
 
