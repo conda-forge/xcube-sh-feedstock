@@ -1,11 +1,11 @@
-About xcube-sh
-==============
+About xcube-sh-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube-sh-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dcs4cop/xcube-sh
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube-sh-feedstock/blob/main/LICENSE.txt)
 
 Summary: xcube plugin for the Sentinel Hub Cloud API
 
