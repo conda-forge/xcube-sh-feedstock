@@ -10,17 +10,17 @@ source:
   sha256: b0243d0b9e966992f64469bf0f31a93870b459af9bba9bf8056b1d4309577937
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - click
     - numcodecs
     - numpy
@@ -35,6 +35,8 @@ requirements:
     - zarr
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - xcube_sh
 
