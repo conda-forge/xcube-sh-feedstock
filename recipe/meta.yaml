@@ -1,5 +1,5 @@
 {% set name = "xcube-sh" %}
-{% set version = "0.11.1" %}
+{% set version = "0.11.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/xcube-dev/xcube-sh/archive/v{{ version }}.tar.gz
-  sha256: b0243d0b9e966992f64469bf0f31a93870b459af9bba9bf8056b1d4309577937
+  sha256: 177dd2def4fe3e5cb0dbf9b90def11acab0dc834b6238305497f5acebc6f6fa7
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
